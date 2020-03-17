@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-app.config["SQLALCHEMY_DATABASE_URI"] = f"{os.environ("DATABASE_URI")}
+app.config["SQLALCHEMY_DATABASE_URI"] = f"{os.environ("DATABASE_URI")}"
 
 db = SQLAlchemy(app)
 
