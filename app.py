@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "{}".format(os.environ("DATABASE_URI"))
+app.config["SQLALCHEMY_DATABASE_URI"] = "{}".format(os.environ["DATABASE_URI"])
 
 # force update
 db = SQLAlchemy(app)
