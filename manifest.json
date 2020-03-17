@@ -15,13 +15,22 @@
   },
   "files": {
     "requirements.txt": {
-      "checksum": "f3993fe6b978850a694d8d64e83b233b"
+      "checksum": "5036af5c0c0cdb7001cd72f02e8c7b22"
     },
     ".gitignore": {
       "checksum": "9ee3747d584b27849cdf424deb294e55"
     },
+    ".prettierignore": {
+      "checksum": "9268c57b9bdfadc5ddcb42feced76b67"
+    },
     "app.py": {
-      "checksum": "ea0a9b095b828ceff774198a8258438f"
+      "checksum": "925bad53852b6eb878ee791739dce25e"
+    },
+    "static/style.css": {
+      "checksum": "f49bd4d078ffd375f2deb76e0cdb5cf3"
+    },
+    "templates/index.html": {
+      "checksum": "d9c85d85c2bffe4bd6bdd467b381b620"
     }
   }
 }
