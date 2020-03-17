@@ -1,0 +1,4 @@
+# gitignore
+
+/rsconnect-python
+__pycache__/
