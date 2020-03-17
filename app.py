@@ -8,14 +8,15 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "{}".format(os.environ("DATABASE_URI"))
 
 db = SQLAlchemy(app)
 
-class User(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String, unique=True, nullable=False)
-    email = db.Column(db.String, unique=True, nullable=False)
+if db:
+    class User(db.Model):
+        id = db.Column(db.Integer, primary_key=True)
+        username = db.Column(db.String, unique=True, nullable=False)
+        email = db.Column(db.String, unique=True, nullable=False)
 
 
-db.session.add(User(name="Flask", email="example@example.com"))
-db.session.commit()
+    db.session.add(User(name="Flask", email="example@example.com"))
+    db.session.commit()
 
 
 @app.route("/")
