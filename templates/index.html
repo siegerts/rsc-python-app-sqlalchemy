@@ -8,8 +8,9 @@
   </head>
   <body class="pa">
     <div class="ba">
-        test
- 
+    {% for user in users %}
+      Hello, {{ user.username }} from RStudio Connect!
+    {% endfor %}
     </div>
   </body>
 </html>

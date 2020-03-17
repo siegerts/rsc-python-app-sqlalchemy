@@ -15,7 +15,7 @@
   },
   "files": {
     "requirements.txt": {
-      "checksum": "cbd9a119360d562b29a649fe564152c2"
+      "checksum": "f00237682b99f60fa6d297c278e87fe5"
     },
     ".gitignore": {
       "checksum": "9ee3747d584b27849cdf424deb294e55"
@@ -23,14 +23,17 @@
     ".prettierignore": {
       "checksum": "9268c57b9bdfadc5ddcb42feced76b67"
     },
+    "__pycache__/app.cpython-37.pyc": {
+      "checksum": "73f49c53fcb96ce1b69965fe4c417730"
+    },
     "app.py": {
-      "checksum": "93511b637cbe26c379a60db6e058c6f3"
+      "checksum": "5a37e91e1a35b95334ebdabf71cbc6c7"
     },
     "static/style.css": {
       "checksum": "f49bd4d078ffd375f2deb76e0cdb5cf3"
     },
     "templates/index.html": {
-      "checksum": "c453363ca64c0a7d2cc2ff235715a5b5"
+      "checksum": "b19536cbe0a08a907d575c2ce6d7d71a"
     }
   }
 }
