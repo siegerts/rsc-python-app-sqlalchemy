@@ -8,7 +8,9 @@
   </head>
   <body class="pa">
     <div class="ba">
-      Hello, World from RStudio Connect!
+    {% for user in users %}
+      Hello, {{ user }} from RStudio Connect!
+    {{ endfor }}
     </div>
   </body>
 </html>
