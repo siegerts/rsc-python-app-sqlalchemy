@@ -15,7 +15,7 @@
   },
   "files": {
     "requirements.txt": {
-      "checksum": "5036af5c0c0cdb7001cd72f02e8c7b22"
+      "checksum": "f00237682b99f60fa6d297c278e87fe5"
     },
     ".gitignore": {
       "checksum": "9ee3747d584b27849cdf424deb294e55"
@@ -24,7 +24,7 @@
       "checksum": "9268c57b9bdfadc5ddcb42feced76b67"
     },
     "app.py": {
-      "checksum": "925bad53852b6eb878ee791739dce25e"
+      "checksum": "29a6915fb3c6739149f85bbe1bf24290"
     },
     "static/style.css": {
       "checksum": "f49bd4d078ffd375f2deb76e0cdb5cf3"
