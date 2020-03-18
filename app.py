@@ -19,8 +19,11 @@ class User(db.Model):
 # db.session.add(User(username="Flask", email="example@example.com"))
 # db.session.commit()
 
-
 @app.route("/")
 def index():
+    return "this is the homepage"
+
+@app.route("/users")
+def users():
     users = User.query.all()
     return render_template('index.html', users=users)
